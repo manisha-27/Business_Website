@@ -19,11 +19,11 @@
 /*    text-decoration: none;*/
 /*}*/
 
-.copy {
+/* .copy {
     font-size: 12px;
     padding: 10px;
-    /*border-top: 1px solid #FFFFFF;*/
-}
+    border-top: 1px solid #FFFFFF;
+} */
 
 /*.footer-middle {*/
 /*    padding-top: 2em;*/
@@ -35,7 +35,7 @@
 
 /* footer social icons */
 
-ul.social-network {
+/* ul.social-network {
     list-style: none;
     display: inline;
     margin-left: 0 !important;
@@ -45,12 +45,12 @@ ul.social-network {
 ul.social-network li {
     display: inline;
     margin: 0 5px;
-}
+} */
 
 
 /* footer social icons */
 
-.social-network a.icoFacebook:hover {
+/* .social-network a.icoFacebook:hover {
     background-color: #3B5998;
 }
 
@@ -111,12 +111,16 @@ ul.social-network li {
 
 .social-network a {
     background-color: #F9F9F9;
-}
+} */
 
 body{
+    /* background-image: url(https://wallpapercave.com/wp/wp3290759.jpg); */
     background-image: "image\6.jpg";
+    /* background-image: url(https://images7.alphacoders.com/751/751196.jpg); */
+    /* background-image: url(https://i2.wp.com/xtrafondos.com/wallpapers/universo-abstracto-3820.jpg); */
     /* background-repeat: no-repeat; */
-    background-attachment: fixed;
+     background-attachment: fixed;
+    background-size: cover;
     /* background-position: center; */
 }
 
@@ -135,8 +139,8 @@ padding-left: 8px;
 
 .div2{
 border-radius: 50%;
-width: 300px;
-height: 300px;
+width: 25%;
+height: 25%;
 /* background-color: rgb(146, 31, 54); */
 border: ridge;
  padding: 5px;
@@ -158,8 +162,8 @@ height: 300px;
     /* background-color: DodgerBlue; */
     /* border-radius: 25px; */
     padding: 10px;
-    width: 1200px;
-    height: 450px;
+    width: 100%px;
+    height: 100%px;
     /* opacity: 70%; */
     color: #fff;
     border: ridge;
@@ -174,8 +178,8 @@ height: 300px;
         background-position: center;
         /* border-radius: 25px; */
         padding: 10px;
-        width: 1250px;
-        height: 400px;
+        width: 100%;
+        height: 100%;
         /* opacity: 70%; */
         color: #fff;
         border: ridge;
@@ -215,21 +219,28 @@ color: white
 }
 
 
+.div0{
+    padding-right: 200px;
+/* padding-bottom: 5px; */
+padding-left: 200px;
+}
+
+
 .div4 {
 display: flex;
 /* background-color: DodgerBlue; */
 /* background: linear-gradient(to right, rgb(28, 24, 219), transparent); */
 border-radius: 25px;
 padding: 5px;
-width: 1000px;
-height: 300px;
+width: 100%px;
+    height: 100%px;
 /* style="background:linear-gradient(to right, #2109f5,#000000);"> */
 }
 
 .service{
 /* display: flex; */
-width: 1500; 
-height: 300;
+width: 100%; 
+height: 100%;
 border-radius: 5px;
 padding: 5px;
 background: linear-gradient(to bottom, rgb(189, 186, 186), transparent);
@@ -237,8 +248,8 @@ background: linear-gradient(to bottom, rgb(189, 186, 186), transparent);
 
 .service1{
 display: flex;
-width: 1500; 
-height: 500;
+width: 100%; 
+height: 100%;
 border-radius: 5px;
 padding: 5px;
 /* background: linear-gradient(to bottom, rgb(255, 255, 255), transparent); */
